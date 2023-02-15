@@ -16,15 +16,19 @@ color:#fff;
 text-shadow: 3px 2px rgb(159, 159, 109);
 }
 
+h2{
+    opacity: 0.70;
+}
+
 nav{
     height: 5vh;
     padding: 5rem;
     border-radius: 1 rem;
-    transform: translate(900px);
+    transform: translate(700px);
 }
 nav a{
     color: #fff;
-    background-color: rgb(56, 157, 216);
+    background-color: rgb(106, 119, 119);
     text-decoration: none;
     padding: 1rem 2rem;
     position: initial;
@@ -35,7 +39,7 @@ nav a{
 }
 
 a:hover{
-    background-color: rgb(77, 189, 77);
+    background-color: rgb(219, 211, 64);
 }
 
 h2{
@@ -56,7 +60,7 @@ h2{
 .about{
     background-image: url(./assets/hockey2.jpg);
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-size: cover;
     opacity: 0.70;
 }
@@ -64,8 +68,63 @@ h2{
 .contact{
     background-image: url(./assets/hockey3.jpg);
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-size: cover;
     opacity: 0.70;
 }
 
+.rules{
+    opacity: 0.70;
+    width: 100%;
+    height: 100vh;
+   text-align: center;
+   margin: 3rem;
+}
+.rules dl{
+    text-align: left;
+}
+
+.container1{
+width: 80%;
+height: 80vh;
+justify-content: center;
+}
+
+
+
+/******** Game ***********/
+.tabla{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+}
+table{
+    width: 40%;
+}
+
+.column1{
+    background-color: rgb(219, 211, 64);
+    width: 20%;
+}
+.column2{
+    background-color: rgb(219, 211, 64);
+    width: 25%;
+}
+.column3{
+    background-color: rgb(219, 211, 64);
+    width: 25%;
+}
+.column4{
+    background-color: rgb(219, 211, 64);
+    width: 25%;
+}
+
+td{
+    background-color: rgb(159, 159, 109);
+    text-align: center;
+    padding: 10px;
+}
+
+footer{
+transform: translate(300px);}
