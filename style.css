@@ -24,7 +24,7 @@ nav{
     height: 5vh;
     padding: 5rem;
     border-radius: 1 rem;
-    transform: translate(700px);
+    transform: translate(300px);
 }
 nav a{
     color: #fff;
@@ -119,6 +119,10 @@ table{
     background-color: rgb(219, 211, 64);
     width: 25%;
 }
+.column5{
+    background-color: rgb(219, 211, 64);
+    width: 25%;
+}
 
 td{
     background-color: rgb(159, 159, 109);
@@ -127,4 +131,35 @@ td{
 }
 
 footer{
-transform: translate(300px);}
+transform: translate(200px);
+}
+
+/******** Form ***********/
+.formulario{
+    padding: 2rem;
+}
+.fondoform{
+    background-color:rgb(159, 159, 109) ;
+}
+fieldset{
+    border-color: yellow;
+}
+.formm{
+    margin-right: 20rem;
+    margin-left: 20rem;
+    
+}
+
+.form2{
+    margin-right: 20rem;
+    margin-left: 20rem;
+}
+
+.form3{
+    margin-right: 20rem;
+    margin-left: 20rem;
+}
+.form4{
+    margin-right: 20rem;
+    margin-left: 20rem;
+}
