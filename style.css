@@ -1,165 +1,217 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-header{
-    width: 100%;
+
+
+header {
+    height: 20vh;
+    display: block;
     background-image: url(./assets/design1_image2.jpg);
-    background-position: center;    
+    background-position: center;
 }
 
-h1{
-text-align: justify;
-color:#fff;
-text-shadow: 3px 2px rgb(159, 159, 109);
+h1 {
+    text-align: justify;
+    color: #fff;
+    text-shadow: 3px 2px rgb(159, 159, 109);
 }
 
-h2{
+h2 {
     opacity: 0.70;
 }
 
-nav{
-    height: 5vh;
-    padding: 5rem;
-    border-radius: 1 rem;
-    transform: translate(300px);
+nav {
+    gap: 5rem;
+    margin-left: 50%;
+    transform: translateY(-2rem);
+
 }
-nav a{
+
+nav a {
     color: #fff;
     background-color: rgb(106, 119, 119);
     text-decoration: none;
-    padding: 1rem 2rem;
-    position: initial;
-    margin-right: 10px;
-    box-shadow: 5px 5px rgba(0, 0,0,0.358);
+    padding: 0.5rem;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.358);
     font-weight: bold;
-
 }
 
-a:hover{
+a:hover {
     background-color: rgb(219, 211, 64);
 }
 
-h2{
+h2 {
     text-align: center;
     background-color: rgb(106, 119, 119);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    padding: 0.2rem;
+    width: 100%;
 }
 
-.index{
-    background-image: url(./assets/hockey1.jpg);
+.logo {
+    height: 7rem;
+    width: 7rem;
+    background-image: url(../assets/LogoHockey.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    margin-inline: 1rem;
+}
+
+.index {
     width: 100%;
     height: 100vh;
     background-size: cover;
-    opacity: 0.70;
+    background-color: rgb(159, 159, 109);
+
 }
-.calendar{
-   transform: translate(100px);
+
+img {
+    height: 10rem;
+    width: 15rem;
+    background-position: center;
+    background-size: cover;
+    border: 0.1875rem solid yellow;
+    border-radius: 0.1875rem;
 }
-.about{
-    background-image: url(./assets/hockey2.jpg);
+
+.calendar {
+    min-height: 6.25rem;
+    width: 50rem;
+    margin-left: 2rem;
+    padding: 1.125rem;
+    border: 0.1875rem solid rgb(219, 211, 64);
+    border-radius: 5px 5px;
+    margin-top: 2rem;
+}
+
+.about {
     width: 100%;
     height: 100vh;
     background-size: cover;
-    opacity: 0.70;
+    background-color: rgb(159, 159, 109);
 }
 
-.contact{
-    background-image: url(./assets/hockey3.jpg);
+.contact {
     width: 100%;
     height: 100vh;
     background-size: cover;
-    opacity: 0.70;
+    background-color: rgb(159, 159, 109);
 }
 
-.rules{
+.rules {
     opacity: 0.70;
     width: 100%;
     height: 100vh;
-   text-align: center;
-   margin: 3rem;
+    text-align: center;
+    margin: 3rem;
 }
-.rules dl{
+
+.rules dl {
     text-align: left;
 }
 
-.container1{
-width: 80%;
-height: 80vh;
-justify-content: center;
+.container1 {
+    width: 80%;
+    height: 80vh;
+    justify-content: center;
 }
 
 
 
 /******** Game ***********/
-.tabla{
+.tabla {
     display: flex;
     justify-content: center;
     align-content: center;
-    width: 100vw;
-}
-table{
-    width: 40%;
 }
 
-.column1{
+table {
+    width: 50%;
+}
+
+.column1 {
     background-color: rgb(219, 211, 64);
     width: 20%;
 }
-.column2{
-    background-color: rgb(219, 211, 64);
-    width: 25%;
-}
-.column3{
-    background-color: rgb(219, 211, 64);
-    width: 25%;
-}
-.column4{
-    background-color: rgb(219, 211, 64);
-    width: 25%;
-}
-.column5{
+
+.column2 {
     background-color: rgb(219, 211, 64);
     width: 25%;
 }
 
-td{
+.column3 {
+    background-color: rgb(219, 211, 64);
+    width: 25%;
+}
+
+.column4 {
+    background-color: rgb(219, 211, 64);
+    width: 25%;
+}
+
+.column5 {
+    background-color: rgb(219, 211, 64);
+    width: 25%;
+}
+
+td {
     background-color: rgb(159, 159, 109);
     text-align: center;
     padding: 10px;
 }
 
-footer{
-transform: translate(200px);
+footer {
+    transform: translate(0px);
 }
 
 /******** Form ***********/
-.formulario{
+.formulario {
     padding: 2rem;
 }
-.fondoform{
-    background-color:rgb(159, 159, 109) ;
+
+.fondoform {
+    background-color: rgb(159, 159, 109);
 }
-fieldset{
+
+fieldset {
     border-color: yellow;
 }
-.formm{
+
+.formm {
     margin-right: 20rem;
     margin-left: 20rem;
-    
+
 }
 
-.form2{
+.form2 {
     margin-right: 20rem;
     margin-left: 20rem;
 }
 
-.form3{
+.form3 {
     margin-right: 20rem;
     margin-left: 20rem;
 }
-.form4{
+
+.form4 {
     margin-right: 20rem;
     margin-left: 20rem;
+}
+
+.boton {
+    margin-right: 20rem;
+    margin-left: 33rem;
+    bottom: 40px;
+    padding: 1pc;
+    background-color: rgb(219, 211, 64);
 }
