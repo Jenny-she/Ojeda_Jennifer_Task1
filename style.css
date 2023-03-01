@@ -215,3 +215,16 @@ fieldset {
     padding: 1pc;
     background-color: rgb(219, 211, 64);
 }
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: rgb(106, 119, 119);
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.copyright p{
+    color: yellow;
+}
